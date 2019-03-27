@@ -1983,7 +1983,7 @@ public function freeRegView(){
       Mail::send('emails.ticket_info', [$data], function ($m) use ($data) {
          $m->from('noreply@xinrox.com', 'XINROX');
          $m->to($data['receiver'], $data['receiver'])->subject('PRACTICAL TRADING GUIDE');
-         $m->attach('practicaltradingguide.pdf',$options = []);
+         $m->attach('tradingguide.pdf',$options = []);
      });
 
      Mail::send('emails.ticket_status', ['data'=> $data], function ($m) use ($data) {
