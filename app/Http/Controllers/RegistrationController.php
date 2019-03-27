@@ -1968,31 +1968,29 @@ public function freeRegView(){
 
   public function sendMail(Request $request) {
 
-      $senders= 'noreply@xinrox.com' ;
-      $rc  = $request->input('email');
-      $phone = $request->input('phone');
-      $subject = 'XINROX TRADING GUIDE';
-      $data=[
+      $senders    = 'noreply@xinrox.com' ;
+      $rc         = $request->input('email');
+      $phone      = $request->input('phone');
+      $subject    = 'XINROX TRADING GUIDE';
+      $data       = [
+                      'sender'  => 'noreply@xinrox.com',
+                      'receiver'  => $rc,
+                      'phone'  => $phone,
+                      'subject'   => $subject
+                ];
 
-              'sender'  => 'noreply@xinrox.com',
-              'receiver'  => $rc,
-              'phone'  => $phone,
-              'subject'   => $subject
-      ];
+        Mail::send('emails.ticket_info', [$data], function ($m) use ($data) {
+           $m->from('noreply@xinrox.com', 'XINROX');
+           $m->to($data['receiver'], $data['receiver'])->subject('PRACTICAL TRADING GUIDE');
+           $m->attach('TRADINGEBOOK.pdf',$options = []);
+       });
 
-      Mail::send('emails.ticket_info', [$data], function ($m) use ($data) {
-         $m->from('noreply@xinrox.com', 'XINROX');
-         $m->to($data['receiver'], $data['receiver'])->subject('PRACTICAL TRADING GUIDE');
-         $m->attach('tradingguide.pdf',$options = []);
-     });
+       Mail::send('emails.ticket_status', ['data'=> $data], function ($m) use ($data) {
+          $m->from('noreply@xinrox.com', 'XINROX');
+          $m->to('lis.oyao@devcoretech.com', 'lis.oyao@devcoretech.com')->subject('FACEBOOK CAMPAIGN SIGNUP');
+       });
 
-     Mail::send('emails.ticket_status', ['data'=> $data], function ($m) use ($data) {
-        $m->from('noreply@xinrox.com', 'XINROX');
-        $m->to('lis.oyao@devcoretech.com', 'lis.oyao@devcoretech.com')->subject('FACEBOOK CAMPAIGN SIGNUP');
-
-    });
-
-     return back()->with(['message'=> 'Successfully submitted !. An ebook has been sent to your email','type'=>'success']);
+      return back()->with(['message'=> 'Successfully submitted !. An ebook has been sent to your email','type'=>'success']);
 
     }
 }
