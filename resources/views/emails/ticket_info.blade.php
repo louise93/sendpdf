@@ -370,7 +370,7 @@ Do not miss the call!</h3>
                     <tr>
                       <td style="text-align: left; padding-right: 10px;">
                       	<h3 class="heading">About</h3>
-                      	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                      	<p>Interday Markets Management Ltd is a successful professional world-class broker.We became successful through impeccable reputation and unique technological and innovative approach to trading on Forex. We provide services in the field of Internet-trading in the global currency market for the widest possible range of clients. </p>
                       </td>
                     </tr>
                   </table>
@@ -381,8 +381,8 @@ Do not miss the call!</h3>
                       <td style="text-align: left; padding-left: 5px; padding-right: 5px;">
                       	<h3 class="heading">Contact Info</h3>
                       	<ul>
-					                <li><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-					                <li><span class="text">+2 392 3929 210</span></a></li>
+					                <li><span class="text"> Griffith  Corporate  Center  PO  Box  1510 Beachmont Kingstown Saint Vincent and the Grenadines</span></li>
+					                <li><span class="text"></span></a></li>
 					              </ul>
                       </td>
                     </tr>
@@ -397,7 +397,7 @@ Do not miss the call!</h3>
 					                <li><a href="#">Home</a></li>
 					                <li><a href="#">About</a></li>
 					                <li><a href="#">Services</a></li>
-					                <li><a href="#">Work</a></li>
+					                
 					              </ul>
                       </td>
                     </tr>
