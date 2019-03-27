@@ -26,6 +26,11 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('Login_v4/css/util.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('Login_v4/css/main.css')}}">
 <!--===============================================================================================-->
+
+<meta property="og:title" content="PRACTICAL TRADING GUIDE">
+<meta property="og:description" content="Trade in 5 days (a practical guide)">
+<meta property="og:image" content="https://dl.dropbox.com/s/3eek12txxyoe265/cover.jpeg">
+<meta property="og:url" content="https://campaign.xinrox.com">
 </head>
 <body>
 
