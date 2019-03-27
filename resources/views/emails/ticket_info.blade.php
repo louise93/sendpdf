@@ -11,7 +11,6 @@
 
     <!-- CSS Reset : BEGIN -->
     <style>
-
         /* What it does: Remove spaces around the email design added by some email clients. */
         /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
         html,
@@ -332,7 +331,7 @@ ul.social li{
           	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
           		<tr>
           			<td class="logo" style="text-align: center;">
-			            <h1><a href="#">e-Verify</a></h1>
+			            <h1><a href="#"><img src="https://dl.dropbox.com/s/0f20yn4p0py20sd/logo%20%281%29.png"  width="300"></a></h1>
 			          </td>
           		</tr>
           	</table>
@@ -340,7 +339,7 @@ ul.social li{
 	      </tr><!-- end tr -->
 	      <tr>
           <td valign="middle" class="hero bg_white" style="padding: 3em 0 2em 0;">
-            <img src="images/email.png" alt="" style="width: 300px; max-width: 600px; height: auto; margin: auto; display: block;">
+            <img src="https://dl.dropbox.com/s/3eek12txxyoe265/cover.jpeg" alt="" style="width: 200px; max-width: 500px; height: auto; margin: auto; display: block;">
           </td>
 	      </tr><!-- end tr -->
 				<tr>
@@ -349,9 +348,10 @@ ul.social li{
             	<tr>
             		<td>
             			<div class="text" style="padding: 0 2.5em; text-align: center;">
-            				<h2>Please verify your email</h2>
-            				<h3>Amazing deals, updates, interesting news right in your inbox</h3>
-            				<p><a href="#" class="btn btn-primary">Yes! Subscribe Me</a></p>
+            				<h2>YOUR BOOK IS IN  THE ATTACHMENT</h2>
+            				<h3>Our employee will call you soon and tell you the latest information about trading.
+Do not miss the call!</h3>
+            				<p><a href="#" class="btn btn-primary">Visit Our Website</a></p>
             			</div>
             		</td>
             	</tr>
@@ -407,11 +407,11 @@ ul.social li{
             </table>
           </td>
         </tr><!-- end: tr -->
-        <tr>
+        <!-- <tr>
           <td class="bg_light" style="text-align: center;">
           	<p>No longer want to receive these email? You can <a href="#" style="color: rgba(0,0,0,.8);">Unsubscribe here</a></p>
           </td>
-        </tr>
+        </tr> -->
       </table>
 
     </div>
