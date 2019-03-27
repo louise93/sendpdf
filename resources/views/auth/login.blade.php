@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>XINROX </title>
+	<title>XINROX  TRADERS</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -39,7 +39,7 @@
 					</span>
 					<hr>
 
-			
+
 
           @if(Session::get('message'))
 								  @if(Session::get('type')=='success')
